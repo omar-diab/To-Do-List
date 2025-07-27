@@ -1,27 +1,26 @@
 import { categorys } from "../../data/Index";
-
 import { useTheme } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 
-const Category = () => {
+const Category = ({ setFilter }) => {
   const theme = useTheme();
 
   return (
-    <div>
+    <div className="p-2">
       <ul
         style={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          gap: "1.5rem",
-          padding: "12px",
+          gap: "5px",
+          padding: "10px",
         }}
       >
         {categorys.map((category) => (
           <li key={category.id}>
             <Button
-              variant='contained'
-              onClick={() => alert("hello")}
+              variant="contained"
+              onClick={() => setFilter(category.name)}
               sx={{
                 bgcolor:
                   theme.palette.mode === "dark"
@@ -32,7 +31,6 @@ const Category = () => {
                     ? theme.palette.common.white
                     : theme.palette.common.black,
                 borderRadius: "8px",
-                textTransform: "none",
                 "&:hover": {
                   bgcolor:
                     theme.palette.mode === "dark"

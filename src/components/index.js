@@ -3,8 +3,8 @@ import Footer from "./MainLayout/Footer";
 
 import Category from "./Layout/Category";
 
-import Input from "./Layout/Input";
 import Task from "./Layout/Task";
+
 
 export {
     Header,
@@ -12,6 +12,5 @@ export {
 
     Category,
 
-    Input,
-    Task
+    Task,
 }
