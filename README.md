@@ -1,12 +1,43 @@
-# React + Vite
+# 📝 To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and minimal To-Do List application built with **React**, **Material UI**, and **Vite**.
+This app supports adding, editing, filtering, and deleting tasks — with category-based filtering and localStorage persistence.
+It also features dark/light theme toggling with full support from MUI's theme provider.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+* ✅ Add new tasks
+* ✏️ Edit existing tasks inline
+* 🗑️ Delete tasks with confirmation
+* 🎯 Mark tasks as `Done`, `Pending`, or `Cancelled`
+* 📂 Filter tasks by category (`All`, `Pending`, `Done`, `Cancelled`)
+* 💡 Light/Dark mode toggle (theme is saved in localStorage)
+* 💾 All tasks persist using `localStorage`
+* 🍃 Smooth UI with Material UI components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+* **React**
+* **Vite**
+* **Material UI (MUI)**
+* **Tailwind CSS**
+* **localStorage**
+
+---
+
+## 🌐 Live Demo
+
+[https://to-do-list-omar.vercel.app](https://to-do-list-self-psi-41.vercel.app/)
+
+---
+
+## 🤛️ Author
+
+Made with ❤️ by **Omar Diab**
+
+* [Portfolio](https://od-portfolio-ashy.vercel.app/)
+* [LinkedIn](https://www.linkedin.com/in/omardiab1/)
