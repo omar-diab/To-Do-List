@@ -1,4 +1,4 @@
-import Header from "./MainLayout/Header.Jsx";
+import Header from "./MainLayout/Header";
 import Footer from "./MainLayout/Footer";
 
 import Category from "./Layout/Category";
