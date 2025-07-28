@@ -31,7 +31,7 @@ It also features dark/light theme toggling with full support from MUI's theme pr
 
 ## 🌐 Live Demo
 
-[https://to-do-list-omar.vercel.app](https://to-do-list-self-psi-41.vercel.app/)
+[https://to-do-list-omar.vercel.app](https://to-do-lisl.vercel.app/)
 
 ---
 
